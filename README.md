@@ -74,12 +74,17 @@
             color: #333;
             padding: 10px;
             margin: 0;
+            background-color: #ffcccc;
         }
 
         .project p {
             color: #666;
             padding: 10px;
             margin: 0;
+        }
+
+        .project-highlight {
+            background-color: #ccffcc;
         }
     </style>
 </head>
@@ -101,6 +106,4 @@
         <p>This is the professional showcase website for Dan Grochmal. On this website, you can learn more about me and see some of the projects I have worked on.</p>
         <div class="project">
             <img src="https://via.placeholder.com/400x200" alt="Placeholder image">
-            <h3>Project 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </
+            <h3>

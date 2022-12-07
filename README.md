@@ -50,6 +50,37 @@
         #main p {
             text-align: justify;
         }
+
+        .project {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            text-align: center;
+            vertical-align: top;
+        }
+
+        .project img {
+            width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+        }
+
+        .project img:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .project h3 {
+            color: #333;
+            padding: 10px;
+            margin: 0;
+        }
+
+        .project p {
+            color: #666;
+            padding: 10px;
+            margin: 0;
+        }
     </style>
 </head>
 <body>
@@ -68,8 +99,8 @@
     <div id="main">
         <h1>Welcome to dangrochmal.com</h1>
         <p>This is the professional showcase website for Dan Grochmal. On this website, you can learn more about me and see some of the projects I have worked on.</p>
-        <img src="https://via.placeholder.com/800x400" alt="Placeholder image">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor leo vel ligula posuere, non scelerisque mi ornare. Duis auctor, dui eu lobortis facilisis, nunc nisi eleifend metus, non lobortis arcu purus non felis. Nulla lobortis, erat quis aliquet aliquam, purus justo tincidunt leo, non laoreet urna purus et neque. Praesent quis augue ante. Pellentesque quis fermentum felis. Nam in sapien at urna sagittis aliquam. Nam id urna posuere, fermentum elit eu, fermentum dolor.</p>
-    </div>
-</body>
-</html>
+        <div class="project">
+            <img src="https://via.placeholder.com/400x200" alt="Placeholder image">
+            <h3>Project 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </

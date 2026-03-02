@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Grochmal | Software Engineer</title>
+  <meta name="description" content="Daniel Grochmal - Software Engineer focused on developer tooling, automation, and clean UX." />
+
+  <link rel="icon" href="https://github.githubassets.com/favicons/favicon-dark.png" />
+
+  <style>
+    :root {
+      --bg: #0d1117;
+      --panel: #161b22;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --muted: #8b949e;
+      --accent: #58a6ff;
+      --accent-hover: #79c0ff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 24px;
+    }
+
+    h1, h2, h3 {
+      margin-top: 0;
+      font-weight: 600;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      margin-top: 60px;
+      margin-bottom: 20px;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 0.85rem;
+    }
+
+    h3 {
+      font-size: 1.3rem;
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: var(--text);
+      margin: 0 0 16px 0;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .hero p {
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 650px;
+    }
+
+    .tech-stack {
+      margin-top: 12px;
+      color: var(--accent);
+      font-size: 0.9rem;
+    }
+
+    .project {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      padding: 28px;
+      border-radius: 8px;
+      margin-bottom: 28px;
+      transition: border 0.2s ease;
+    }
+
+    .project:hover {
+      border-color: var(--accent);
+    }
+
+    .project p {
+      color: var(--muted);
+    }
+
+    .project strong {
+      color: var(--text);
+    }
+
+    .links a {
+      display: inline-block;
+      margin-right: 16px;
+      text-decoration: none;
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    .links a:hover {
+      color: var(--accent-hover);
+    }
+
+    footer {
+      margin-top: 80px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    a:hover {
+      color: var(--accent-hover);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <section class="hero">
+      <h1>Daniel Grochmal</h1>
+      <p class="muted">Software Engineer</p>
+
+      <div class="tech-stack">
+        C# • .NET • Angular • TypeScript • Azure DevOps • SQL
+      </div>
+
+      <p>
+        I build tools that reduce cognitive overhead and improve developer workflows.
+        My focus is practical engineering — systems that solve real friction in everyday development environments.
+      </p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>ADO Tab Icons</h3>
+
+        <p>
+          A Chrome extension that adds contextual visual identifiers to Azure DevOps tabs.
+        </p>
+
+        <p>
+          <strong>Problem:</strong><br>
+          Azure DevOps tabs are visually identical, making heavy multitasking costly and error-prone.
+        </p>
+
+        <p>
+          <strong>Solution:</strong><br>
+          Dynamic tab icons that distinguish Boards, Repos, Pipelines, Pull Requests, and Work Items —
+          reducing context-switch friction for engineers working across multiple ADO areas.
+        </p>
+
+        <p>
+          <strong>Technical Notes:</strong><br>
+          • DOM inspection and mutation handling for dynamic page changes<br>
+          • Optimized event listeners to minimize performance impact<br>
+          • Clean separation between tab detection logic and icon rendering<br>
+          • Designed for zero backend dependencies
+        </p>
+
+        <div class="links">
+          <a href="https://github.com/dgrochmal/ADO-Tab-Icon-Browser-Extension" target="_blank">GitHub</a>
+          <a href="https://chromewebstore.google.com/detail/ado-tab-icons/fkhjooaaldgdkfbijeaeaehcehohmgkm" target="_blank">Chrome Store</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <h3>Stats Navigator</h3>
+
+        <p>
+          A data tooling project focused on making structured statistical data more navigable and intuitive.
+        </p>
+
+        <p>
+          <strong>Focus:</strong><br>
+          Designing UI patterns that reduce hierarchy confusion and make structured datasets easier to explore.
+        </p>
+
+        <p>
+          <strong>Technical Emphasis:</strong><br>
+          • Data modeling and transformation for clean presentation<br>
+          • UI architecture designed around clarity and hierarchy<br>
+          • Minimizing friction when traversing nested statistical data<br>
+          • Emphasis on structure over visual noise
+        </p>
+
+        <div class="links">
+          <a href="https://github.com/dgrochmal/Stats-Navigator" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+    </section>
+
+    <section>
+      <h2>Links</h2>
+
+      <div class="links">
+        <a href="https://github.com/dgrochmal" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/dangrochmal/" target="_blank">LinkedIn</a>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 Daniel Grochmal
+    </footer>
+
+  </div>
+
+</body>
+</html>

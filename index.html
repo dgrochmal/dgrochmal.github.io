@@ -168,7 +168,7 @@
 
         <p>
           <strong>Solution:</strong><br>
-          Dynamic tab icons that distinguish Boards, Repos, Pipelines, Pull Requests, and Work Items —
+          Dynamic tab icons that distinguish Boards, Repos, Pipelines, Pull Requests, Work Items, and more —
           reducing context-switch friction for engineers working across multiple ADO areas.
         </p>
 
@@ -177,7 +177,6 @@
           • DOM inspection and mutation handling for dynamic page changes<br>
           • Optimized event listeners to minimize performance impact<br>
           • Clean separation between tab detection logic and icon rendering<br>
-          • Designed for zero backend dependencies
         </p>
 
         <div class="links">
@@ -187,29 +186,49 @@
       </div>
 
       <div class="project">
-        <h3>Stats Navigator</h3>
+  <h3>Stats Navigator</h3>
 
-        <p>
-          A data tooling project focused on making structured statistical data more navigable and intuitive.
-        </p>
+  <p>
+    A Chrome extension that enables fast cross-navigation between player pages on
+    Baseball Reference, FanGraphs, and Baseball Savant.
+  </p>
 
-        <p>
-          <strong>Focus:</strong><br>
-          Designing UI patterns that reduce hierarchy confusion and make structured datasets easier to explore.
-        </p>
+  <p>
+    <strong>Problem:</strong><br>
+    Player analysis often requires jumping between multiple statistical platforms,
+    each using different internal identifiers and URL structures. Manual searching
+    slows down workflow and introduces friction.
+  </p>
 
-        <p>
-          <strong>Technical Emphasis:</strong><br>
-          • Data modeling and transformation for clean presentation<br>
-          • UI architecture designed around clarity and hierarchy<br>
-          • Minimizing friction when traversing nested statistical data<br>
-          • Emphasis on structure over visual noise
-        </p>
+  <p>
+    <strong>Solution:</strong><br>
+    A lightweight extension popup that detects the current player page and provides
+    direct navigation links to the corresponding player profile on other major
+    baseball analytics sites — in both directions.
+  </p>
 
-        <div class="links">
-          <a href="https://github.com/dgrochmal/Stats-Navigator" target="_blank">GitHub</a>
-        </div>
-      </div>
+  <p>
+    <strong>Data & Architecture:</strong><br>
+    • Cross-site player identity mapping<br>
+    • URL generation driven by normalized metadata<br>
+    • Primary registry data sourced from Chadwick Bureau<br>
+    • Supplementary FanGraphs ID resolution via SmartFantasyBaseball<br>
+    • Python-based data wrangling pipelines to transform raw datasets into extension-ready lookup tables<br>
+    • Continuous updates to accommodate new rookies and roster changes
+  </p>
+
+  <p>
+    <strong>Technical Emphasis:</strong><br>
+    • Metadata normalization across heterogeneous sources<br>
+    • Deterministic ID resolution for accurate cross-platform linking<br>
+    • Minimal runtime overhead (precomputed mapping tables)<br>
+  </p>
+
+  <div class="links">
+    <a href="https://github.com/dgrochmal/Stats-Navigator" target="_blank">GitHub</a>
+    <a href="https://chromewebstore.google.com/detail/stats-navigator/lbbdpmoliocjdndehobflkmlaemkefpn" target="_blank">Chrome Store</a>
+  </div>
+</div>
 
     </section>
 

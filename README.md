@@ -1,109 +1,76 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>dangrochmal.com - Professional Showcase</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            background-color: #f1f1f1;
-        }
+# Daniel Grochmal
 
-        #header {
-            background-color: #333;
-            color: white;
-            padding: 30px;
-            text-align: center;
-        }
+Personal website and project showcase.
 
-        #header h1 {
-            margin: 0;
-        }
+🔗 Live site: https://dangrochmal.com  
+🔗 GitHub: https://github.com/dgrochmal  
+🔗 LinkedIn: https://www.linkedin.com/in/dangrochmal
 
-        #menu {
-            background-color: #ccc;
-            padding: 10px;
-            text-align: center;
-        }
+---
 
-        #menu a {
-            text-decoration: none;
-            padding: 8px;
-            color: black;
-            font-weight: bold;
-        }
+## About
 
-        #menu a:hover {
-            color: white;
-            background-color: black;
-        }
+This repository hosts my GitHub Pages site.
 
-        #main {
-            padding: 10px;
-            text-align: center;
-        }
+The site is intentionally minimal — a single-page, static HTML site focused on highlighting engineering work rather than visual complexity.
 
-        #main img {
-            width: 100%;
-            border: 1px solid #ccc;
-        }
+No build pipeline.  
+No frameworks.  
+No dependencies.  
 
-        #main p {
-            text-align: justify;
-        }
+Just clean, maintainable static markup.
 
-        .project {
-            display: inline-block;
-            width: 30%;
-            margin: 10px;
-            text-align: center;
-            vertical-align: top;
-        }
+---
 
-        .project img {
-            width: 100%;
-            border-radius: 5px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            transition: 0.3s;
-        }
+## Featured Projects
 
-        .project img:hover {
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-        }
+### ADO Tab Icons
 
-        .project h3 {
-            color: #333;
-            padding: 10px;
-            margin: 0;
-            background-color: #ffcccc;
-        }
+A Chrome extension that adds contextual visual identifiers to Azure DevOps tabs.
 
-        .project p {
-            color: #666;
-            padding: 10px;
-            margin: 0;
-        }
+**Focus areas:**
+- DOM inspection and mutation handling
+- Performance-conscious browser extension architecture
+- Reducing cognitive load in high-tab development workflows
+- Clean separation of detection and rendering logic
 
-        .project-highlight {
-            background-color: #ccffcc;
-        }
-    </style>
-</head>
-<body>
-    <div id="header">
-        <h1>dangrochmal.com</h1>
-        <p>Professional Showcase</p>
-    </div>
+🔗 Repo: https://github.com/dgrochmal/ADO-Tab-Icon-Browser-Extension  
+🔗 Chrome Store: https://chromewebstore.google.com/detail/ado-tab-icons/fkhjooaaldgdkfbijeaeaehcehohmgkm
 
-    <div id="menu">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
-    </div>
+---
 
-    <div id="main">
-        <h1>Welcome to dangrochmal.com</h1>
-        <p>This is the professional showcase website for Dan Grochmal. On this website, you can learn more about me and see some of the projects I have worked on.</p>
-        <div class="project">
-            <img src="https://via.placeholder.com/400x200" alt="Placeholder image">
-            <h3>
+### Stats Navigator
+
+A Chrome extension that enables cross-navigation between Baseball Reference, FanGraphs, and Baseball Savant player pages.
+
+**Focus areas:**
+- Cross-site identity resolution
+- Metadata normalization across heterogeneous data sources
+- Python-based data wrangling pipelines
+- Deterministic URL generation for reliable linking
+- Ongoing updates for rookie and roster changes
+
+Primary data sources:
+- Chadwick Bureau register
+- Supplementary FanGraphs ID data
+
+🔗 Repo: https://github.com/dgrochmal/Stats-Navigator  
+🔗 Chrome Store: https://chromewebstore.google.com/detail/stats-navigator/lbbdpmoliocjdndehobflkmlaemkefpn
+
+---
+
+## Deployment
+
+This site is hosted via **GitHub Pages** using the `main` branch.
+
+Custom domain configured via `CNAME`.
+
+To update the site:
+
+1. Modify `index.html`
+2. Commit to `main`
+3. GitHub Pages deploys automatically
+
+---
+
+© 2026 Daniel Grochmal
